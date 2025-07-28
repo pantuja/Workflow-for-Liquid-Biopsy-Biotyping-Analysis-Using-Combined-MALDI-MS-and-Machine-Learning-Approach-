@@ -5,17 +5,17 @@ This repository contains an open-source and user-modifiable R script used in the
 **"End-to-End Workflows for Liquid Biopsy Biotyping Analysis Using Combined MALDI MS and Machine Learning Approach"**  
 *by Lukáš Pečinka, Jaromíra Pantučková, et al.*
 
-📄 DOI: 
+DOI: 
 
 ---
 
-## 🔍 Purpose
+## Purpose
 
 The R script provided in this repository implements a transparent, reproducible and fully customizable workflow for the preprocessing, analysis, and classification of MALDI-TOF mass spectrometry data, specifically tailored for liquid biopsy studies in clinical research.
 
 ---
 
-## 🧪 Workflow Overview
+## Workflow Overview
 
 The code is divided into several modular parts:
 
@@ -39,7 +39,7 @@ The code is divided into several modular parts:
 
 ---
 
-## 📂 Requirements
+## Requirements
 
 - R (version ≥ 4.3)
 - R packages:
@@ -53,7 +53,7 @@ install.packages(c("MALDIquant", "MALDIquantForeign", "MALDIrppa", "ggplot2", "c
 
 ---
 
-## 📁 Input Format
+## Input Format
 
 - Input files should be in `mzML` format and organized in folders per experimental group (e.g., `HD_1/`, `MM_1/`).
 - Each sample should have multiple technical replicates (e.g., `Subject01_1.mzML`, `Subject01_2.mzML`, ...).
@@ -61,7 +61,7 @@ install.packages(c("MALDIquant", "MALDIquantForeign", "MALDIrppa", "ggplot2", "c
 
 ---
 
-## 📥 How to Use
+## How to Use
 
 1. Adjust `setwd()` and `group_dirs` in the script to match your data structure.
 2. Follow script annotations to run each section step by step.
@@ -70,14 +70,14 @@ install.packages(c("MALDIquant", "MALDIquantForeign", "MALDIrppa", "ggplot2", "c
 
 ---
 
-## 📞 Contact
+## Contact
 
 Author of the script: **Jaromíra Pantučková**  
-📧 534266@mail.muni.cz
+534266@mail.muni.cz
 
 ---
 
-## 📚 Citation
+## Citation
 
 If you use this workflow, please cite the original article and link to this GitHub repository.
 
